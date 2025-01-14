@@ -1,0 +1,1 @@
+This error occurs when using Expo's `Constants.deviceId` within a background task or service worker.  The `deviceId` might be undefined or return a different value than expected because the device ID is not reliably available in these contexts. The ID is often tied to the foreground app instance which might not be available.
